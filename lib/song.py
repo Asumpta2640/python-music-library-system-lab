@@ -1,5 +1,5 @@
 class Song:
-    pass
+   # pass
      count = 0  
      genres = []  
      artists = [] 
@@ -11,7 +11,8 @@ class Song:
        self.artist = artist 
        self.genre = genre     
        
-       Song.count += 1      
+       Song.count += 1   
+          
        Song.genres.append(genre)      
        Song.artists.append(artist)
 
